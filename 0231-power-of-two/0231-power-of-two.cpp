@@ -3,13 +3,15 @@ public:
     bool isPowerOfTwo(int n) {
         if(n<=0)
         return 0;
+        int i=0;
 
-        while(n!=1){
-            if(n%2==1)
-            return 0;
-            n/=2;
+        while(n>=pow(2,i)){
+            if(n==pow(2,i)){
+            return 1;}
+
+            i++;
         }
-        return 1;
+        return 0;
         
     }
 };
