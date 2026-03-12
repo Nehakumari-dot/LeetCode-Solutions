@@ -2,13 +2,14 @@
 class Solution {
   public:
     int trailingZeroes(int n) {
-        int qut=0;
+        int z=0,quot;
         while(n>=5){
-            qut=qut+n/5;
-            n/=5;
+            quot=n/5;
+            z=z+quot;
+            n=quot;
             
         }
-        return qut;
+        return z;
         
     }
 };
