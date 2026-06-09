@@ -2,11 +2,14 @@ class Solution {
   public:
     int firstRepeated(vector<int> &arr) {
         int n=arr.size();
-        for(int i=0;i<n-1;i++){
-            for(int j=i+1;j<n;j++){
-                if(arr[j]==arr[i])
-                  return i+1;
-            }
+        int f=1000001;
+        int freq[f]={0};
+        for(int i=0;i<n;i++){
+            freq[arr[i]]++;
+        }
+        for(int i=0;i<n;i++){
+            if(freq[arr[i]]>1)
+             return i+1;
         }
         return -1;
          
