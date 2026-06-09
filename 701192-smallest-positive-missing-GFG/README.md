@@ -1,4 +1,4 @@
-# [Smallest Positive Missing](https://www.geeksforgeeks.org/problems/smallest-positive-missing-number-1587115621/1)
+# [Smallest Positive Missing](https://www.geeksforgeeks.org/problems/smallest-positive-missing-number-1587115621/1?utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab&utm_source=geeksforgeeks)
 ## Medium
 You are given an integer array&nbsp;arr[]. Your task is to find the smallest positive number&nbsp;missing from the array.
 Note: Positive number starts from 1. The array can have negative integers too.
